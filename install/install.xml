@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<core_available_modules>
+        <install>
+                <module_name>City Select</module_name>
+                <module_id>ct-st-085</module_id>
+                <version>1.0.0</version>
+                <description>City Select test module for framework Core 2</description>
+                <author>Valahanovich Oleg</author>
+                <module_system>CitySelect</module_system>
+                <module_public>Y</module_public>
+
+                <access>on</access>
+                <default>on</default>
+                <sql>install</sql>
+        </install>
+        <uninstall>
+                <sql>uninstall</sql>
+        </uninstall>
+</core_available_modules>
