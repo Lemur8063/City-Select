@@ -154,9 +154,7 @@ if ($_GET['c_id'] && $_GET['c_name'] || $_GET['c_content']) {
             } else {
 
                 let c_id = $('.edit_item .c_id').attr('id');
-                console.log(c_id);
                 let c_name = $('.edit_item .c_name').text();
-                console.log('c_name');
                 let c_content = $('.edit_item .c_content').text();
                 $.ajax({
                     type: "GET",
