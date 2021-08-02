@@ -3,15 +3,13 @@
 <core_available_modules>
         <install>
                 <module_name>City Select</module_name>
-                <module_id>ct-st-085</module_id>
+                <module_id>city</module_id>
                 <version>1.0.0</version>
                 <description>City Select test module for framework Core 2</description>
                 <author>Valahanovich Oleg</author>
-                <module_system>CitySelect</module_system>
-                <module_public>Y</module_public>
+                <module_system>Y</module_system>
+                <module_public>y</module_public>
 
-                <access>on</access>
-                <default>on</default>
                 <sql>install</sql>
         </install>
         <uninstall>
