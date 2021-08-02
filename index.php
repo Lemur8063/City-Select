@@ -17,7 +17,7 @@ if ($_GET['addId']) {
     echo 'work';
 }
 
-if ($_GET['c_id'] && $_GET['c_name'] && $_GET['c_content']) {
+if ($_GET['c_id'] && $_GET['c_name'] || $_GET['c_content']) {
 
     $this->db->query("UPDATE `city_select` SET `c_name` = '" . $_GET['c_name'] . "', `c_content` = '" . $_GET['c_content'] . "' WHERE `city_select`.`c_id` = " . $_GET['c_id'] . " ");
 
